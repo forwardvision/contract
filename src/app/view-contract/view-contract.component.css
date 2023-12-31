@@ -1,0 +1,53 @@
+
+  /* In your component's CSS file or in a global CSS file */
+.editor-container {
+    width: 100%; /* Set the desired fixed width in pixels or percentage */
+    min-width: 300px; /* Set a minimum width that ensures it fills the space for shorter content */
+    max-width: 100%; /* Ensure it doesn't exceed the parent container's width */
+  }
+
+
+  /* Style for the custom "Merge Up" button */
+.ql-custom-button {
+  background-color: #195bd8; /* Button background color */
+  color: #0e0995; /* Button text color */
+  border: none; /* Remove button border */
+  padding: 8px 16px; /* Adjust padding as needed */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+  font-size: 16px; /* Button text size */
+  display: flex; /* Display icon and text horizontally */
+  align-items: center; /* Center the icon and text vertically */
+}
+
+/* Style for the icon within the "Merge Up" button */
+.ql-custom-button i {
+  margin-right: 8px; /* Add space between icon and text */
+  font-size: 10px; /* Icon size */
+  float: left;
+}
+
+
+
+  /* Style for the custom "Merge Up" button */
+  .ql-custom-mergeUp {
+    background-color: #db6917; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    padding: 8px 16px; /* Adjust padding as needed */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 16px; /* Button text size */
+    display: flex; /* Display icon and text horizontally */
+    align-items: center; /* Center the icon and text vertically */
+  }
+  
+  /* Style for the icon within the "Merge Up" button */
+  .ql-custom-mergeUp i {
+    margin-right: 8px; /* Add space between icon and text */
+    font-size: 20px; /* Icon size */
+  }
+
+  .custom-dropdown-menu {
+    float: left;
+  }

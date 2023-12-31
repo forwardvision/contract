@@ -1,0 +1,19 @@
+<div style="text-align: center" >
+    <h1>Welcome to your application!</h1>
+</div>
+  
+  <p-splitter [style]="{ height: '300px' ;}" styleClass="mb-5">
+    <ng-template pTemplate="content">
+      <div class="col flex align-items-center justify-content-center ;">
+        <quill-editor [(ngModel)]="resultValue" [modules]="modules"></quill-editor>
+      </div>
+    </ng-template>
+    <ng-template pTemplate="content">
+      <div class="col flex align-items-center justify-content-center">
+        <div class="editor-container" *ngFor="let content of multiline; let i = index">
+            <quill-editor [(ngModel)]="multiline[i]" [modules]="modules"></quill-editor>
+          </div>
+      </div>
+    </ng-template>
+  </p-splitter>
+  

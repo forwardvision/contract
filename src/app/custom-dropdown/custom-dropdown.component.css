@@ -1,0 +1,17 @@
+/* custom-dropdown.component.css */
+.custom-dropdown-menu {
+    display: none;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
+  .custom-dropdown-menu button {
+    display: block;
+    padding: 5px;
+    background: #f0f0f0;
+    border: none;
+    cursor: pointer;
+  }
+  

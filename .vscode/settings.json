@@ -1,0 +1,17 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic"
+    "workbench.colorCustomizations":{
+
+        "activityBar.background": "#990b0b"
+    }
+    "files.exclude": {
+        "**/my-custom-folder": true,
+        "**/spec.ts": true,
+        "**/.DS_Store": true,
+        "**/upload.component.spec.ts": true,
+        "**/view-contract.component.spec.ts": true,
+        "**/upload.component.css": true,
+        // "**/view-contract.component.css": true,
+        "**/*.xyz": true
+      },
+}

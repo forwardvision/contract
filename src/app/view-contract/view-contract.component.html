@@ -1,0 +1,28 @@
+  
+<head>
+  <link rel="stylesheet" href="view-contract.component.css">
+</head>
+
+<div style="text-align: center">
+    <h1>Welcome to your application!</h1>
+  </div>
+  
+  <p-splitter [style]="{ height: '300px' }" styleClass="mb-5">
+  <ng-template pTemplate="content">
+
+    <div class="col flex align-items-center justify-content-center">
+        <!-- <quill-editor [(ngModel)]="resultValue"></quill-editor>     -->
+        <div #editorContainerstatic class="static-quill-editors"></div>
+
+      </div>
+  </ng-template>
+
+  <ng-template pTemplate="content">
+
+    <div class="col flex align-items-center justify-content-center">
+        <div #editorContainerdynamic class="dynamic-quill-editors"></div>
+    </div>
+
+  </ng-template>
+
+</p-splitter>  
